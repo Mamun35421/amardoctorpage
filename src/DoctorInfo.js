@@ -28,17 +28,16 @@ const FormSignup = ({ submitForm }) => {
           {errors.DoctorName && <p>{errors.DoctorName}</p>}
         </div>
         <div>
-        <Dropdown className='form-inputs'>
-  <Dropdown.Toggle variant="success" id="dropdown-basic">
-  sesson
-  </Dropdown.Toggle>
-
-  <Dropdown.Menu>
-    <Dropdown.Item >Action</Dropdown.Item>
-    <Dropdown.Item>Another action</Dropdown.Item>
-    <Dropdown.Item>Something else</Dropdown.Item>
-  </Dropdown.Menu>
-</Dropdown>
+        <form >
+ 
+  <select name="cars" id="cars">
+    <option >Sesson</option>
+    <option >10am-12pm</option>
+    <option >2pm-4pm</option>
+    <option >5PM-8PM</option>
+  </select>
+ 
+</form>
         </div>
         
         <div className='form-inputs'>
